@@ -3,7 +3,7 @@
 	<title>ContactConnect22</title>
 	<script type="text/javascript" src="js/md5.js"></script>
 	<script type="text/javascript" src="js/code.js"></script>
-    <link href="css/styles.css" rel="stylesheet">	
+    <link href="var/www/css/styles.css" rel="stylesheet">	
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 </head>
 <body>
@@ -11,11 +11,19 @@
 <h1 id="title">ContactConnect22</h1>
 
 <div id="loginDiv">
-	<span id="inner-title">LOG IN</span>
+	<span id="inner-title">Log in</span>
 	<input type="text" id="loginName" placeholder="Username" /><br />
 	<input type="password" id="loginPassword" placeholder="Password"/><br />
 	<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Continue </button>
 	<span id="loginResult"></span>
+</div>
+
+<div id="signupDiv">
+	<span id="inner-title">Sign up</span>
+	<input type="text" id="signupName" placeholder="Username" /><br />
+	<input type="password" id="signupPassword" placeholder="Password"/><br />
+	<button type="button" id="signupButton" class="buttons" onclick="doSignup();"> Continue </button>
+	<span id="signupResult"></span>
 </div>
 
 </body>
